@@ -7,4 +7,4 @@ resources:
 images:
 - name: quarkus-demo
   newName: manojsaikumar/quarkus-github-actions-demo
-  newTag: "6"
+  newTag: "8"
