@@ -40,8 +40,8 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}  
       run: |
         cd k8s
-        kustomize edit set image argo-app=$DOCKER_USERNAME/argo-app:$GITHUB_SHA
-        cat kustomization.yml
+         kustomize edit set image quarkus-demo=manojsaikumar/quarkus-github-actions-demo$GITHUB_SHA
+        cat kustomization.yaml
         
     - name: Commit files
       run: |
