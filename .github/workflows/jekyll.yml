@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_API_KEY }}
           repository: manojsaikumar/quarkus-github-actions-demo
-          tags: ${{ github.sha }}, latest
+          tags: ${{ github.sha }}
           path: .
 
   deploy:
