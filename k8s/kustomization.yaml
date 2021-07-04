@@ -6,4 +6,4 @@ resources:
 - ingress.yaml
 images:
 - name: quarkus-demo
-  newName: manojsaikumar/quarkus-github-actions-demo:d9ef2d2865161f3161a35f747deda18ba62d648e
+  newName: manojsaikumar/quarkus-github-actions-demoa4cf5045f3a02c9080571fa8624519ba97cae0ed
